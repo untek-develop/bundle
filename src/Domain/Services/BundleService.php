@@ -3,9 +3,9 @@
 namespace Untek\Develop\Bundle\Domain\Services;
 
 use Untek\Develop\Bundle\Domain\Interfaces\Services\BundleServiceInterface;
-use Untek\Domain\EntityManager\Interfaces\EntityManagerInterface;
+use Untek\Model\EntityManager\Interfaces\EntityManagerInterface;
 use Untek\Develop\Bundle\Domain\Interfaces\Repositories\BundleRepositoryInterface;
-use Untek\Domain\Service\Base\BaseCrudService;
+use Untek\Model\Service\Base\BaseCrudService;
 use Untek\Develop\Bundle\Domain\Entities\BundleEntity;
 
 /**
