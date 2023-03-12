@@ -10,6 +10,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
+    "untek-pack/model": "0.x-dev"
   },
   "autoload": {
     "psr-4": {
