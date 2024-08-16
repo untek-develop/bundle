@@ -8,7 +8,7 @@ use Untek\Model\Validator\Interfaces\ValidationByMetadataInterface;
 use Untek\Model\Entity\Interfaces\UniqueInterface;
 use Untek\Model\Entity\Interfaces\EntityIdInterface;
 
-class BundleEntity implements ValidationByMetadataInterface, UniqueInterface, EntityIdInterface
+class BundleEntity //implements ValidationByMetadataInterface, UniqueInterface, EntityIdInterface
 {
 
     private $id = null;
