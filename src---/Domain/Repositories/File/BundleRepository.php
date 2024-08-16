@@ -15,7 +15,7 @@ use Untek\Develop\Bundle\Domain\Entities\BundleEntity;
 use Untek\Develop\Bundle\Domain\Entities\DomainEntity;
 use Untek\Develop\Bundle\Domain\Interfaces\Repositories\BundleRepositoryInterface;
 
-class BundleRepository implements BundleRepositoryInterface
+class BundleRepository //implements BundleRepositoryInterface
 {
 
     private $configManager;

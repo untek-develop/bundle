@@ -6,7 +6,7 @@ use Untek\Database\Eloquent\Domain\Base\BaseEloquentCrudRepository;
 use Untek\Develop\Bundle\Domain\Entities\DomainEntity;
 use Untek\Develop\Bundle\Domain\Interfaces\Repositories\DomainRepositoryInterface;
 
-class DomainRepository extends BaseEloquentCrudRepository implements DomainRepositoryInterface
+class DomainRepository extends BaseEloquentCrudRepository //implements DomainRepositoryInterface
 {
 
     public function tableName() : string
